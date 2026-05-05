@@ -28,7 +28,8 @@ models = {}
 model_files = {
     "random_forest": "final_rf_model.pkl",
     "xgboost": "xgboost_delta_v2.pkl",
-    "ensemble": "ensemble_model.pkl"
+    "ensemble": "ensemble_model.pkl",
+    "catboost": "catboost_model.pkl"
 }
 
 for name, filename in model_files.items():

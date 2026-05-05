@@ -55,11 +55,15 @@ Nếu bạn muốn chạy lại toàn bộ quy trình từ dữ liệu thô đ�
     *(Dùng để xem báo cáo so sánh các thuật toán)*
 
 4.  **Huấn luyện các mô hình chính thức (Để phục vụ API)**:
-    *   **Train XGBoost**: `python src/models/train_xgboost.py`
-    *   **Train Ensemble (RF + LGBM)**: `python src/models/train_ensemble.py`
-    *   **Train Final Model (Random Forest)**: `python src/models/train_final_model.py`
+    *   **CatBoost (SOTA)**: `python src/models/train_catboost.py`
+    *   **XGBoost**: `python src/models/train_xgboost.py`
+    *   **Ensemble**: `python src/models/train_ensemble.py`
+    *   **Random Forest**: `python src/models/train_final_model.py`
 
-*Lưu ý: Sau khi chạy xong mục 4, bạn sẽ thấy 3 file `.pkl` xuất hiện trong thư mục `models/`. Đây là điều kiện bắt buộc để API khởi chạy không bị lỗi.*
+5.  **Phân tích sự tương quan (XAI)**:
+    *   Chạy `python src/analysis/feature_importance.py` để xuất biểu đồ ảnh hưởng của các Input.
+
+*Lưu ý: Sau khi chạy xong mục 4, bạn sẽ thấy các file `.pkl` xuất hiện trong thư mục `models/`. Đây là điều kiện bắt buộc để API khởi chạy không bị lỗi.*
 
 ---
 

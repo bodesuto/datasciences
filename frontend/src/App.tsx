@@ -116,6 +116,7 @@ const App: React.FC = () => {
               <Select size="large">
                 <Option value="random_forest">Random Forest (Stable)</Option>
                 <Option value="xgboost">XGBoost (Trend Focus)</Option>
+                <Option value="catboost">CatBoost (SOTA Performance)</Option>
                 <Option value="ensemble">Ensemble (Meta Model)</Option>
               </Select>
             </Form.Item>

@@ -12,3 +12,5 @@ missingno==0.5.2
 matplotlib==3.7.2
 seaborn==0.12.2
 python-multipart==0.0.6
+catboost==1.2
+shap==0.42.1
